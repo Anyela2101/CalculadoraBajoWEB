@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "calculadoraBajoWEB"
+    }
+  },
+  "defaultProject": "calculadoraBajoWEB",
+  "cli": {
+    "analytics": "08f9d25c-c968-42a8-aec9-c51f951d5b72"
+  }
 }

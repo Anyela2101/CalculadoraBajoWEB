@@ -1,0 +1,54 @@
+:root{
+    --primary: #7d8ff5;
+    --light: #ffffff;
+    --grey:#efefef;
+}
+
+body{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.bg-primary{background-color: var(--primary) !important;}
+.bg-light {background-color: var(--light) !important;}
+.bg-mix {background:linear-gradient(180deg, var(--light) 50%, var(--grey));}
+.bg-grey{background-color: var(--grey) !important;}
+
+.btn{
+    border: 0;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+}
+.btn-search{
+    right: 5px;
+}
+
+#content{
+    overflow-y: 30px;
+    overflow-x: hidden;
+    border: 1px solid black;
+    height: 600px;
+}
+
+.stat{
+    border-right: 1px solid var(--grey);
+}
+
+.form-registro{
+    width: 1220px;
+    height: 500px;
+    padding: 0px;
+    float:right;
+    margin-top:-600px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
